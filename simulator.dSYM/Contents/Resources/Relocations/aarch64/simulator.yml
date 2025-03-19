@@ -1,0 +1,24 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     simulator
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002078, symSize: 0x220 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _opcode_to_str_map, symObjAddr: 0x1E98, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x6C, offset: 0x6C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002078, symSize: 0x220 }
+  - { offsetInCU: 0x91, offset: 0x91, size: 0x8, addend: 0x0, symName: _main.state, symObjAddr: 0x4980, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0xA6, offset: 0xA6, size: 0x8, addend: 0x0, symName: _main.newState, symObjAddr: 0x849F0, symBinAddr: 0x1000880B0, symSize: 0x0 }
+  - { offsetInCU: 0x2DC, offset: 0x2DC, size: 0x8, addend: 0x0, symName: _readMachineCode, symObjAddr: 0x220, symBinAddr: 0x100002298, symSize: 0x228 }
+  - { offsetInCU: 0x330, offset: 0x330, size: 0x8, addend: 0x0, symName: _opcode, symObjAddr: 0x448, symBinAddr: 0x1000024C0, symSize: 0x18 }
+  - { offsetInCU: 0x358, offset: 0x358, size: 0x8, addend: 0x0, symName: _printState, symObjAddr: 0x460, symBinAddr: 0x1000024D8, symSize: 0x850 }
+  - { offsetInCU: 0x3F4, offset: 0x3F4, size: 0x8, addend: 0x0, symName: _IF_stage, symObjAddr: 0xCB0, symBinAddr: 0x100002D28, symSize: 0x68 }
+  - { offsetInCU: 0x426, offset: 0x426, size: 0x8, addend: 0x0, symName: _ID_stage, symObjAddr: 0xD18, symBinAddr: 0x100002D90, symSize: 0x2DC }
+  - { offsetInCU: 0x4BA, offset: 0x4BA, size: 0x8, addend: 0x0, symName: _EX_stage, symObjAddr: 0xFF4, symBinAddr: 0x10000306C, symSize: 0x3C0 }
+  - { offsetInCU: 0x5C1, offset: 0x5C1, size: 0x8, addend: 0x0, symName: _MEM_stage, symObjAddr: 0x13D4, symBinAddr: 0x10000344C, symSize: 0x1DC }
+  - { offsetInCU: 0x623, offset: 0x623, size: 0x8, addend: 0x0, symName: _WB_stage, symObjAddr: 0x15B0, symBinAddr: 0x100003628, symSize: 0x11C }
+  - { offsetInCU: 0x667, offset: 0x667, size: 0x8, addend: 0x0, symName: _field1, symObjAddr: 0x16CC, symBinAddr: 0x100003744, symSize: 0x1C }
+  - { offsetInCU: 0x68F, offset: 0x68F, size: 0x8, addend: 0x0, symName: _field0, symObjAddr: 0x16E8, symBinAddr: 0x100003760, symSize: 0x1C }
+  - { offsetInCU: 0x6B7, offset: 0x6B7, size: 0x8, addend: 0x0, symName: _convertNum, symObjAddr: 0x1704, symBinAddr: 0x10000377C, symSize: 0x38 }
+  - { offsetInCU: 0x6DF, offset: 0x6DF, size: 0x8, addend: 0x0, symName: _field2, symObjAddr: 0x173C, symBinAddr: 0x1000037B4, symSize: 0x14 }
+  - { offsetInCU: 0x707, offset: 0x707, size: 0x8, addend: 0x0, symName: _set_destinations, symObjAddr: 0x1750, symBinAddr: 0x1000037C8, symSize: 0x2CC }
+  - { offsetInCU: 0x7B9, offset: 0x7B9, size: 0x8, addend: 0x0, symName: _printInstruction, symObjAddr: 0x1A1C, symBinAddr: 0x100003A94, symSize: 0x1A4 }
+...
