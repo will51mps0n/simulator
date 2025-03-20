@@ -1,0 +1,22 @@
+8 3 4 6
+65538
+4194304
+12976128
+8388616
+8388617
+12582922
+29360128
+25165824
+0
+10
+9
+Dtext T 0
+UseDT D 0
+Ddata D 1
+UseDD D 2
+2 sw Dtext
+3 lw UseDT
+4 lw Ddata
+5 sw UseDD
+0 .fill Dtext
+2 .fill Ddata

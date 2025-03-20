@@ -1,0 +1,34 @@
+7 6 9 11
+12976135
+8388616
+8388617
+12582922
+8388619
+12582924
+25165824
+10
+0
+0
+2
+7
+3
+FWN D 0
+FWUTG D 1
+DefTex T 2
+FWUDG D 2
+FWDTG D 3
+FWDDG D 4
+FWL D 5
+UndefT U 0
+UndefD U 0
+0 sw FWN
+1 lw FWUTG
+2 lw FWUDG
+3 sw FWDTG
+4 lw FWDDG
+5 sw FWL
+1 .fill UndefT
+2 .fill UndefD
+3 .fill DefTex
+4 .fill FWN
+5 .fill local

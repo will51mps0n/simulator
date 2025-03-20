@@ -1,0 +1,15 @@
+4 2 2 6
+12976128
+13238272
+8388612
+8388613
+0
+0
+Dtext U 0
+Ddata U 0
+0 sw Dtext
+1 sw Ddata
+2 lw useGD
+3 lw useGT
+0 .fill Ddata
+1 .fill Dtext
